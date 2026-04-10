@@ -93,7 +93,7 @@
                     </div>
 
                     <div class="text-white/50 text-sm font-medium flex flex-wrap gap-2 items-center">
-                        <span>📍 Londrina, PR</span>
+                        <span class="flex items-center gap-1.5"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> Londrina, PR</span>
                         <span>&middot;</span>
                         <span>+10 anos de experiência</span>
                         <span>&middot;</span>
@@ -169,7 +169,7 @@
     <section id="diferencial" class="py-24 bg-[#F5F3EE]">
         <div class="max-w-7xl mx-auto px-6 lg:px-8 text-center">
             <p class="text-[#F5A623] text-[13px] font-bold uppercase tracking-[0.08em] mb-4">Nosso Diferencial</p>
-            <h2 class="font-['Plus_Jakarta_Sans'] font-semibold text-3xl md:text-[38px] text-[#1A2B3C] mb-6">
+            <h2 class="font-['Plus_Jakarta_Sans'] font-extrabold text-4xl md:text-[46px] text-[#1A2B3C] mb-6">
                 Por que escolher a Bethel?
             </h2>
             <div class="w-12 h-[3px] bg-[#F5A623] mx-auto mb-16"></div>
@@ -214,7 +214,7 @@
     <section id="servicos" class="py-24 bg-white">
         <div class="max-w-7xl mx-auto px-6 lg:px-8 text-center">
             <p class="text-[#F5A623] text-[13px] font-bold uppercase tracking-[0.08em] mb-4">O que fazemos</p>
-            <h2 class="font-['Plus_Jakarta_Sans'] font-semibold text-3xl md:text-[38px] text-[#1A2B3C] mb-6">
+            <h2 class="font-['Plus_Jakarta_Sans'] font-extrabold text-4xl md:text-[46px] text-[#1A2B3C] mb-6">
                 Consultoria que cobre toda a sua operação
             </h2>
             <div class="w-12 h-[3px] bg-[#F5A623] mx-auto mb-16"></div>
@@ -289,7 +289,7 @@
     <section class="py-24 bg-[#1A2B3C] overflow-hidden">
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <p class="text-[#F5A623] text-[13px] font-bold uppercase tracking-[0.08em] mb-4">Como trabalhamos</p>
-            <h2 class="font-['Plus_Jakarta_Sans'] font-semibold text-3xl md:text-[38px] text-white mb-6">
+            <h2 class="font-['Plus_Jakarta_Sans'] font-extrabold text-4xl md:text-[46px] text-white mb-6">
                 Da análise ao resultado em 4 etapas
             </h2>
             <div class="w-12 h-[3px] bg-[#F5A623] mb-16"></div>
@@ -331,7 +331,7 @@
     <section class="py-24 bg-[#F5F3EE]">
         <div class="max-w-7xl mx-auto px-6 lg:px-8 text-center">
             <p class="text-[#F5A623] text-[13px] font-bold uppercase tracking-[0.08em] mb-4">Clientes</p>
-            <h2 class="font-['Plus_Jakarta_Sans'] font-semibold text-3xl md:text-[38px] text-[#1A2B3C] mb-6">
+            <h2 class="font-['Plus_Jakarta_Sans'] font-extrabold text-4xl md:text-[46px] text-[#1A2B3C] mb-6">
                 Resultados que falam por si
             </h2>
             <div class="w-12 h-[3px] bg-[#F5A623] mx-auto mb-16"></div>
@@ -388,7 +388,7 @@
 
                 <div>
                     <p class="text-[#F5A623] text-[13px] font-bold uppercase tracking-[0.08em] mb-4">Nosso Compromisso</p>
-                    <h2 class="font-['Plus_Jakarta_Sans'] font-semibold text-3xl md:text-[38px] text-[#1A2B3C] mb-6">
+                    <h2 class="font-['Plus_Jakarta_Sans'] font-extrabold text-4xl md:text-[46px] text-[#1A2B3C] mb-6">
                         Sua empresa em boas mãos
                     </h2>
                     <p class="text-[#4A5568] text-lg leading-relaxed">
@@ -430,7 +430,7 @@
     {{-- 8. CTA --}}
     <section id="contato" class="py-24 bg-[#1A2B3C] text-center">
         <div class="max-w-4xl mx-auto px-6 lg:px-8">
-            <h2 class="font-['Plus_Jakarta_Sans'] font-semibold text-3xl md:text-[42px] text-white mb-6">
+            <h2 class="font-['Plus_Jakarta_Sans'] font-extrabold text-4xl md:text-[48px] text-white mb-6">
                 Pronto para transformar o seu negócio?
             </h2>
             <p class="text-white/80 text-xl mb-10 max-w-2xl mx-auto">
@@ -487,7 +487,7 @@
                     <p class="text-white/60 mb-6 max-w-xs">
                         Detectamos problemas e entregamos soluções. Consultoria e gestão empresarial focada em resultados.
                     </p>
-                    <p class="text-white/40 text-sm flex items-center gap-2">📍 Londrina, PR</p>
+                    <p class="text-white/40 text-sm flex items-center gap-2"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="shrink-0"><path d="M20 10c0 6-8 12-8 12s-8-6-8-12a8 8 0 0 1 16 0Z"/><circle cx="12" cy="10" r="3"/></svg> Londrina, PR</p>
                 </div>
 
                 <div>
