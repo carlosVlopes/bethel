@@ -67,7 +67,7 @@
     </nav>
 
     {{-- 2. HERO --}}
-    <section class="relative pt-32 pb-20 lg:pt-40 lg:pb-32 bg-[#1A2B3C]">
+    <section class="relative pt-32 pb-20 lg:pt-40 lg:pb-32 bg-[#1A2B3C] overflow-x-clip">
         <div class="max-w-7xl mx-auto px-6 lg:px-8">
             <div class="grid lg:grid-cols-2 gap-12 lg:gap-8 items-center">
 
@@ -112,7 +112,7 @@
                     </div>
 
                     {{-- Floating Card 1 — Clientes Atendidos --}}
-                    <div class="absolute top-10 -left-10 z-30">
+                    <div class="absolute top-10 left-2 sm:-left-10 z-30">
                         <div class="rounded-xl px-5 py-4 shadow-2xl border border-white/15"
                              style="background: rgba(15,29,43,0.85); backdrop-filter: blur(16px); animation: cardSlideLeft 0.7s 0.1s cubic-bezier(0.22,1,0.36,1) both, floatY1 3.8s 0.8s ease-in-out infinite">
                             <p class="text-[#F5A623] text-[10px] font-bold uppercase tracking-widest mb-1">Clientes Atendidos</p>
@@ -129,7 +129,7 @@
                     </div>
 
                     {{-- Floating Card 2 — Satisfação --}}
-                    <div class="absolute top-1/2 -right-8 z-30" style="transform: translateY(-50%)">
+                    <div class="absolute top-1/2 right-2 sm:-right-8 z-30" style="transform: translateY(-50%)">
                         <div class="rounded-xl px-5 py-4 shadow-2xl border border-white/15 w-[178px]"
                              style="background: rgba(15,29,43,0.85); backdrop-filter: blur(16px); animation: cardSlideRight 0.7s 0.35s cubic-bezier(0.22,1,0.36,1) both, floatY2 4.2s 1.2s ease-in-out infinite">
                             <p class="text-[#F5A623] text-[10px] font-bold uppercase tracking-widest mb-2">Satisfação</p>

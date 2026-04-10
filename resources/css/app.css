@@ -16,43 +16,68 @@
     }
 }
 
-/* Swiper — desktop grid overrides */
+/* Swiper — fully neutralize on desktop */
 @media (min-width: 768px) {
+    .swiper-diferencial,
+    .swiper-servicos,
+    .swiper-depoimentos {
+        overflow: visible !important;
+    }
     .swiper-diferencial .swiper-wrapper,
     .swiper-depoimentos .swiper-wrapper {
         display: grid !important;
         grid-template-columns: repeat(3, minmax(0, 1fr));
         gap: 2rem;
+        transform: none !important;
     }
     .swiper-servicos .swiper-wrapper {
         display: grid !important;
         grid-template-columns: repeat(2, minmax(0, 1fr));
         gap: 1.5rem;
+        transform: none !important;
+    }
+    .swiper-diferencial .swiper-slide,
+    .swiper-servicos .swiper-slide,
+    .swiper-depoimentos .swiper-slide {
+        width: auto !important;
+        height: auto !important;
+        margin: 0 !important;
+    }
+    .swiper-diferencial .swiper-slide > *,
+    .swiper-servicos .swiper-slide > *,
+    .swiper-depoimentos .swiper-slide > * {
+        height: 100%;
     }
 }
 @media (min-width: 1024px) {
     .swiper-servicos .swiper-wrapper {
         grid-template-columns: repeat(3, minmax(0, 1fr));
     }
+    .swiper-processo {
+        overflow: visible !important;
+    }
     .swiper-processo .swiper-wrapper {
         display: grid !important;
         grid-template-columns: repeat(4, minmax(0, 1fr));
         gap: 1.5rem;
+        transform: none !important;
+    }
+    .swiper-processo .swiper-slide {
+        width: auto !important;
+        height: auto !important;
+        margin: 0 !important;
+    }
+    .swiper-processo .swiper-slide > * {
+        height: 100%;
     }
 }
 
-/* Swiper slides auto-height + card fill */
+/* Swiper slides auto-height (mobile) */
 .swiper-diferencial .swiper-slide,
 .swiper-servicos .swiper-slide,
 .swiper-processo .swiper-slide,
 .swiper-depoimentos .swiper-slide {
     height: auto !important;
-}
-.swiper-diferencial .swiper-slide > *,
-.swiper-servicos .swiper-slide > *,
-.swiper-processo .swiper-slide > *,
-.swiper-depoimentos .swiper-slide > * {
-    height: 100%;
 }
 
 /* Swiper pagination theme */
