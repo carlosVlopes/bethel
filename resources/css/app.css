@@ -72,12 +72,12 @@
     }
 }
 
-/* Swiper slides auto-height (mobile) */
-.swiper-diferencial .swiper-slide,
-.swiper-servicos .swiper-slide,
-.swiper-processo .swiper-slide,
-.swiper-depoimentos .swiper-slide {
-    height: auto !important;
+/* Swiper slides equal-height (mobile) */
+.swiper-diferencial .swiper-slide > *,
+.swiper-servicos .swiper-slide > *,
+.swiper-processo .swiper-slide > *,
+.swiper-depoimentos .swiper-slide > * {
+    height: 100%;
 }
 
 /* Swiper pagination theme */

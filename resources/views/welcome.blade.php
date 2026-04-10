@@ -313,29 +313,29 @@
                 <div class="swiper swiper-processo relative z-10">
                     <div class="swiper-wrapper">
                         <div class="swiper-slide">
-                            <div class="relative bg-[#243548] lg:bg-transparent lg:p-0 p-6 rounded-lg border lg:border-none border-[#F5A623]/20">
-                                <div class="w-14 h-14 rounded-full bg-[#F5A623] text-[#1A2B3C] flex items-center justify-center font-bold text-xl mb-6 shadow-[0_0_15px_rgba(245,166,35,0.3)] mx-auto lg:mx-0">01</div>
+                            <div class="relative bg-[#243548] lg:bg-transparent lg:p-0 p-6 rounded-lg border lg:border-none border-[#F5A623]/20 flex flex-col">
+                                <div class="w-14 h-14 rounded-full bg-[#F5A623] text-[#1A2B3C] flex items-center justify-center font-bold text-xl mb-6 shadow-[0_0_15px_rgba(245,166,35,0.3)] mx-auto lg:mx-0 shrink-0">01</div>
                                 <h3 class="text-[22px] font-semibold text-white mb-3 text-center lg:text-left">Diagnóstico</h3>
                                 <p class="text-white/70 leading-relaxed text-center lg:text-left">Análise completa do negócio — financeiro, operacional, comercial e de pessoas.</p>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="relative bg-[#243548] lg:bg-transparent lg:p-0 p-6 rounded-lg border lg:border-none border-[#F5A623]/20">
-                                <div class="w-14 h-14 rounded-full bg-[#F5A623] text-[#1A2B3C] flex items-center justify-center font-bold text-xl mb-6 shadow-[0_0_15px_rgba(245,166,35,0.3)] mx-auto lg:mx-0">02</div>
+                            <div class="relative bg-[#243548] lg:bg-transparent lg:p-0 p-6 rounded-lg border lg:border-none border-[#F5A623]/20 flex flex-col">
+                                <div class="w-14 h-14 rounded-full bg-[#F5A623] text-[#1A2B3C] flex items-center justify-center font-bold text-xl mb-6 shadow-[0_0_15px_rgba(245,166,35,0.3)] mx-auto lg:mx-0 shrink-0">02</div>
                                 <h3 class="text-[22px] font-semibold text-white mb-3 text-center lg:text-left">Plano de Ação</h3>
                                 <p class="text-white/70 leading-relaxed text-center lg:text-left">Entregamos um plano detalhado com prioridades claras, responsáveis e prazos definidos.</p>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="relative bg-[#243548] lg:bg-transparent lg:p-0 p-6 rounded-lg border lg:border-none border-[#F5A623]/20">
-                                <div class="w-14 h-14 rounded-full bg-[#F5A623] text-[#1A2B3C] flex items-center justify-center font-bold text-xl mb-6 shadow-[0_0_15px_rgba(245,166,35,0.3)] mx-auto lg:mx-0">03</div>
+                            <div class="relative bg-[#243548] lg:bg-transparent lg:p-0 p-6 rounded-lg border lg:border-none border-[#F5A623]/20 flex flex-col">
+                                <div class="w-14 h-14 rounded-full bg-[#F5A623] text-[#1A2B3C] flex items-center justify-center font-bold text-xl mb-6 shadow-[0_0_15px_rgba(245,166,35,0.3)] mx-auto lg:mx-0 shrink-0">03</div>
                                 <h3 class="text-[22px] font-semibold text-white mb-3 text-center lg:text-left">Implementação</h3>
                                 <p class="text-white/70 leading-relaxed text-center lg:text-left">Trabalhamos lado a lado com sua equipe para executar as mudanças necessárias.</p>
                             </div>
                         </div>
                         <div class="swiper-slide">
-                            <div class="relative bg-[#243548] lg:bg-transparent lg:p-0 p-6 rounded-lg border lg:border-none border-[#F5A623]/20">
-                                <div class="w-14 h-14 rounded-full bg-[#F5A623] text-[#1A2B3C] flex items-center justify-center font-bold text-xl mb-6 shadow-[0_0_15px_rgba(245,166,35,0.3)] mx-auto lg:mx-0">04</div>
+                            <div class="relative bg-[#243548] lg:bg-transparent lg:p-0 p-6 rounded-lg border lg:border-none border-[#F5A623]/20 flex flex-col">
+                                <div class="w-14 h-14 rounded-full bg-[#F5A623] text-[#1A2B3C] flex items-center justify-center font-bold text-xl mb-6 shadow-[0_0_15px_rgba(245,166,35,0.3)] mx-auto lg:mx-0 shrink-0">04</div>
                                 <h3 class="text-[22px] font-semibold text-white mb-3 text-center lg:text-left">Acompanhamento</h3>
                                 <p class="text-white/70 leading-relaxed text-center lg:text-left">Monitoramos os resultados e ajustamos a rota conforme necessário para garantir o impacto.</p>
                             </div>
