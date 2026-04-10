@@ -16,6 +16,64 @@
     }
 }
 
+/* Swiper — desktop grid overrides */
+@media (min-width: 768px) {
+    .swiper-diferencial .swiper-wrapper,
+    .swiper-depoimentos .swiper-wrapper {
+        display: grid !important;
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        gap: 2rem;
+    }
+    .swiper-servicos .swiper-wrapper {
+        display: grid !important;
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+        gap: 1.5rem;
+    }
+}
+@media (min-width: 1024px) {
+    .swiper-servicos .swiper-wrapper {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+    .swiper-processo .swiper-wrapper {
+        display: grid !important;
+        grid-template-columns: repeat(4, minmax(0, 1fr));
+        gap: 1.5rem;
+    }
+}
+
+/* Swiper slides auto-height + card fill */
+.swiper-diferencial .swiper-slide,
+.swiper-servicos .swiper-slide,
+.swiper-processo .swiper-slide,
+.swiper-depoimentos .swiper-slide {
+    height: auto !important;
+}
+.swiper-diferencial .swiper-slide > *,
+.swiper-servicos .swiper-slide > *,
+.swiper-processo .swiper-slide > *,
+.swiper-depoimentos .swiper-slide > * {
+    height: 100%;
+}
+
+/* Swiper pagination theme */
+:root {
+    --swiper-pagination-color: #F5A623;
+    --swiper-pagination-bullet-inactive-color: #1A2B3C;
+    --swiper-pagination-bullet-inactive-opacity: 0.2;
+    --swiper-pagination-bullet-size: 8px;
+}
+.swiper-pagination-bullet {
+    transition: all 0.3s;
+}
+.swiper-pagination-bullet-active {
+    width: 24px !important;
+    border-radius: 4px !important;
+}
+.swiper-pagination-processo {
+    --swiper-pagination-bullet-inactive-color: white;
+    --swiper-pagination-bullet-inactive-opacity: 0.3;
+}
+
 @keyframes pulseSlow {
     0%, 100% { transform: scale(1); }
     50% { transform: scale(1.06); }

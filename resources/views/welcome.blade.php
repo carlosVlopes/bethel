@@ -9,6 +9,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link rel="icon" type="image/png" href="{{ asset('images/bethel-logo.png') }}">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     @vite(['resources/css/app.css', 'resources/js/app.js'])
 </head>
 <body class="min-h-screen bg-[#F5F3EE] font-sans text-[#1A2B3C]">
@@ -174,39 +175,44 @@
             </h2>
             <div class="w-12 h-[3px] bg-[#F5A623] mx-auto mb-16"></div>
 
-            <div class="grid md:grid-cols-3 gap-8 text-left">
-
-                <div class="bg-white border border-[#E2E0D8] rounded-lg p-8 shadow-[0_2px_12px_rgba(26,43,60,0.06)] hover:shadow-[0_8px_32px_rgba(26,43,60,0.12)] hover:border-[#F5A623] transition-all duration-300 group">
-                    <div class="w-[52px] h-[52px] rounded-lg bg-[#F5A623]/10 border border-[#F5A623]/30 flex items-center justify-center text-[#F5A623] mb-6 group-hover:scale-110 transition-transform">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M3 7V5a2 2 0 0 1 2-2h2"/><path d="M17 3h2a2 2 0 0 1 2 2v2"/><path d="M21 17v2a2 2 0 0 1-2 2h-2"/><path d="M7 21H5a2 2 0 0 1-2-2v-2"/><circle cx="12" cy="12" r="3"/><path d="m16 16-1.9-1.9"/>
-                        </svg>
+            <div class="swiper swiper-diferencial">
+                <div class="swiper-wrapper text-left">
+                    <div class="swiper-slide">
+                        <div class="bg-white border border-[#E2E0D8] rounded-lg p-8 shadow-[0_2px_12px_rgba(26,43,60,0.06)] hover:shadow-[0_8px_32px_rgba(26,43,60,0.12)] hover:border-[#F5A623] transition-all duration-300 group">
+                            <div class="w-[52px] h-[52px] rounded-lg bg-[#F5A623]/10 border border-[#F5A623]/30 flex items-center justify-center text-[#F5A623] mb-6 group-hover:scale-110 transition-transform">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M3 7V5a2 2 0 0 1 2-2h2"/><path d="M17 3h2a2 2 0 0 1 2 2v2"/><path d="M21 17v2a2 2 0 0 1-2 2h-2"/><path d="M7 21H5a2 2 0 0 1-2-2v-2"/><circle cx="12" cy="12" r="3"/><path d="m16 16-1.9-1.9"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-[22px] font-semibold text-[#1A2B3C] mb-4">Diagnóstico Real</h3>
+                            <p class="text-[#4A5568] leading-relaxed">Mergulhamos no seu negócio para entender os bastidores — processos, finanças, pessoas e estratégia. Nada passa despercebido.</p>
+                        </div>
                     </div>
-                    <h3 class="text-[22px] font-semibold text-[#1A2B3C] mb-4">Diagnóstico Real</h3>
-                    <p class="text-[#4A5568] leading-relaxed">Mergulhamos no seu negócio para entender os bastidores — processos, finanças, pessoas e estratégia. Nada passa despercebido.</p>
-                </div>
-
-                <div class="bg-white border border-[#E2E0D8] rounded-lg p-8 shadow-[0_2px_12px_rgba(26,43,60,0.06)] hover:shadow-[0_8px_32px_rgba(26,43,60,0.12)] hover:border-[#F5A623] transition-all duration-300 group">
-                    <div class="w-[52px] h-[52px] rounded-lg bg-[#F5A623]/10 border border-[#F5A623]/30 flex items-center justify-center text-[#F5A623] mb-6 group-hover:scale-110 transition-transform">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>
-                        </svg>
+                    <div class="swiper-slide">
+                        <div class="bg-white border border-[#E2E0D8] rounded-lg p-8 shadow-[0_2px_12px_rgba(26,43,60,0.06)] hover:shadow-[0_8px_32px_rgba(26,43,60,0.12)] hover:border-[#F5A623] transition-all duration-300 group">
+                            <div class="w-[52px] h-[52px] rounded-lg bg-[#F5A623]/10 border border-[#F5A623]/30 flex items-center justify-center text-[#F5A623] mb-6 group-hover:scale-110 transition-transform">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-[22px] font-semibold text-[#1A2B3C] mb-4">Soluções Personalizadas</h3>
+                            <p class="text-[#4A5568] leading-relaxed">Nenhum negócio é igual ao outro. Desenvolvemos estratégias sob medida para a sua realidade, porte e setor.</p>
+                        </div>
                     </div>
-                    <h3 class="text-[22px] font-semibold text-[#1A2B3C] mb-4">Soluções Personalizadas</h3>
-                    <p class="text-[#4A5568] leading-relaxed">Nenhum negócio é igual ao outro. Desenvolvemos estratégias sob medida para a sua realidade, porte e setor.</p>
-                </div>
-
-                <div class="bg-white border border-[#E2E0D8] rounded-lg p-8 shadow-[0_2px_12px_rgba(26,43,60,0.06)] hover:shadow-[0_8px_32px_rgba(26,43,60,0.12)] hover:border-[#F5A623] transition-all duration-300 group">
-                    <div class="w-[52px] h-[52px] rounded-lg bg-[#F5A623]/10 border border-[#F5A623]/30 flex items-center justify-center text-[#F5A623] mb-6 group-hover:scale-110 transition-transform">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                            <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/>
-                        </svg>
+                    <div class="swiper-slide">
+                        <div class="bg-white border border-[#E2E0D8] rounded-lg p-8 shadow-[0_2px_12px_rgba(26,43,60,0.06)] hover:shadow-[0_8px_32px_rgba(26,43,60,0.12)] hover:border-[#F5A623] transition-all duration-300 group">
+                            <div class="w-[52px] h-[52px] rounded-lg bg-[#F5A623]/10 border border-[#F5A623]/30 flex items-center justify-center text-[#F5A623] mb-6 group-hover:scale-110 transition-transform">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polyline points="22 7 13.5 15.5 8.5 10.5 2 17"/><polyline points="16 7 22 7 22 13"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-[22px] font-semibold text-[#1A2B3C] mb-4">Resultados Mensuráveis</h3>
+                            <p class="text-[#4A5568] leading-relaxed">Acompanhamos a implementação e medimos os resultados. Nosso compromisso é com a transformação real, não com relatórios bonitos.</p>
+                        </div>
                     </div>
-                    <h3 class="text-[22px] font-semibold text-[#1A2B3C] mb-4">Resultados Mensuráveis</h3>
-                    <p class="text-[#4A5568] leading-relaxed">Acompanhamos a implementação e medimos os resultados. Nosso compromisso é com a transformação real, não com relatórios bonitos.</p>
                 </div>
-
             </div>
+            <div class="swiper-pagination-diferencial mt-8 text-center md:hidden"></div>
         </div>
     </section>
 
@@ -219,69 +225,77 @@
             </h2>
             <div class="w-12 h-[3px] bg-[#F5A623] mx-auto mb-16"></div>
 
-            <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 text-left">
-
-                <div class="bg-white border border-[#E2E0D8] rounded-lg p-8 shadow-[0_2px_12px_rgba(26,43,60,0.06)] hover:shadow-[0_8px_32px_rgba(26,43,60,0.12)] hover:border-[#F5A623] transition-all duration-300 group">
-                    <div class="w-[52px] h-[52px] rounded-lg bg-[#F5A623]/10 border border-[#F5A623]/30 flex items-center justify-center text-[#F5A623] mb-6 group-hover:scale-110 transition-transform">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="18" x2="18" y1="20" y2="10"/><line x1="12" x2="12" y1="20" y2="4"/><line x1="6" x2="6" y1="20" y2="14"/>
-                        </svg>
+            <div class="swiper swiper-servicos">
+                <div class="swiper-wrapper text-left">
+                    <div class="swiper-slide">
+                        <div class="bg-white border border-[#E2E0D8] rounded-lg p-8 shadow-[0_2px_12px_rgba(26,43,60,0.06)] hover:shadow-[0_8px_32px_rgba(26,43,60,0.12)] hover:border-[#F5A623] transition-all duration-300 group">
+                            <div class="w-[52px] h-[52px] rounded-lg bg-[#F5A623]/10 border border-[#F5A623]/30 flex items-center justify-center text-[#F5A623] mb-6 group-hover:scale-110 transition-transform">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="18" x2="18" y1="20" y2="10"/><line x1="12" x2="12" y1="20" y2="4"/><line x1="6" x2="6" y1="20" y2="14"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-[20px] font-semibold text-[#1A2B3C] mb-3">Gestão Financeira</h3>
+                            <p class="text-[#4A5568] leading-relaxed text-[15px]">Controle de fluxo de caixa, redução de custos, planejamento financeiro e análise de rentabilidade por produto ou serviço.</p>
+                        </div>
                     </div>
-                    <h3 class="text-[20px] font-semibold text-[#1A2B3C] mb-3">Gestão Financeira</h3>
-                    <p class="text-[#4A5568] leading-relaxed text-[15px]">Controle de fluxo de caixa, redução de custos, planejamento financeiro e análise de rentabilidade por produto ou serviço.</p>
-                </div>
-
-                <div class="bg-white border border-[#E2E0D8] rounded-lg p-8 shadow-[0_2px_12px_rgba(26,43,60,0.06)] hover:shadow-[0_8px_32px_rgba(26,43,60,0.12)] hover:border-[#F5A623] transition-all duration-300 group">
-                    <div class="w-[52px] h-[52px] rounded-lg bg-[#F5A623]/10 border border-[#F5A623]/30 flex items-center justify-center text-[#F5A623] mb-6 group-hover:scale-110 transition-transform">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                            <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
-                        </svg>
+                    <div class="swiper-slide">
+                        <div class="bg-white border border-[#E2E0D8] rounded-lg p-8 shadow-[0_2px_12px_rgba(26,43,60,0.06)] hover:shadow-[0_8px_32px_rgba(26,43,60,0.12)] hover:border-[#F5A623] transition-all duration-300 group">
+                            <div class="w-[52px] h-[52px] rounded-lg bg-[#F5A623]/10 border border-[#F5A623]/30 flex items-center justify-center text-[#F5A623] mb-6 group-hover:scale-110 transition-transform">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <path d="M16 21v-2a4 4 0 0 0-4-4H6a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M22 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-[20px] font-semibold text-[#1A2B3C] mb-3">Gestão de Pessoas</h3>
+                            <p class="text-[#4A5568] leading-relaxed text-[15px]">Estruturação de equipes, definição de cargos e salários, cultura organizacional e processos de contratação.</p>
+                        </div>
                     </div>
-                    <h3 class="text-[20px] font-semibold text-[#1A2B3C] mb-3">Gestão de Pessoas</h3>
-                    <p class="text-[#4A5568] leading-relaxed text-[15px]">Estruturação de equipes, definição de cargos e salários, cultura organizacional e processos de contratação.</p>
-                </div>
-
-                <div class="bg-white border border-[#E2E0D8] rounded-lg p-8 shadow-[0_2px_12px_rgba(26,43,60,0.06)] hover:shadow-[0_8px_32px_rgba(26,43,60,0.12)] hover:border-[#F5A623] transition-all duration-300 group">
-                    <div class="w-[52px] h-[52px] rounded-lg bg-[#F5A623]/10 border border-[#F5A623]/30 flex items-center justify-center text-[#F5A623] mb-6 group-hover:scale-110 transition-transform">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                            <line x1="6" x2="6" y1="3" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/>
-                        </svg>
+                    <div class="swiper-slide">
+                        <div class="bg-white border border-[#E2E0D8] rounded-lg p-8 shadow-[0_2px_12px_rgba(26,43,60,0.06)] hover:shadow-[0_8px_32px_rgba(26,43,60,0.12)] hover:border-[#F5A623] transition-all duration-300 group">
+                            <div class="w-[52px] h-[52px] rounded-lg bg-[#F5A623]/10 border border-[#F5A623]/30 flex items-center justify-center text-[#F5A623] mb-6 group-hover:scale-110 transition-transform">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <line x1="6" x2="6" y1="3" y2="15"/><circle cx="18" cy="6" r="3"/><circle cx="6" cy="18" r="3"/><path d="M18 9a9 9 0 0 1-9 9"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-[20px] font-semibold text-[#1A2B3C] mb-3">Processos e Operações</h3>
+                            <p class="text-[#4A5568] leading-relaxed text-[15px]">Mapeamento, redesenho e padronização de processos para eliminar retrabalho e ganhar eficiência operacional.</p>
+                        </div>
                     </div>
-                    <h3 class="text-[20px] font-semibold text-[#1A2B3C] mb-3">Processos e Operações</h3>
-                    <p class="text-[#4A5568] leading-relaxed text-[15px]">Mapeamento, redesenho e padronização de processos para eliminar retrabalho e ganhar eficiência operacional.</p>
-                </div>
-
-                <div class="bg-white border border-[#E2E0D8] rounded-lg p-8 shadow-[0_2px_12px_rgba(26,43,60,0.06)] hover:shadow-[0_8px_32px_rgba(26,43,60,0.12)] hover:border-[#F5A623] transition-all duration-300 group">
-                    <div class="w-[52px] h-[52px] rounded-lg bg-[#F5A623]/10 border border-[#F5A623]/30 flex items-center justify-center text-[#F5A623] mb-6 group-hover:scale-110 transition-transform">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
-                        </svg>
+                    <div class="swiper-slide">
+                        <div class="bg-white border border-[#E2E0D8] rounded-lg p-8 shadow-[0_2px_12px_rgba(26,43,60,0.06)] hover:shadow-[0_8px_32px_rgba(26,43,60,0.12)] hover:border-[#F5A623] transition-all duration-300 group">
+                            <div class="w-[52px] h-[52px] rounded-lg bg-[#F5A623]/10 border border-[#F5A623]/30 flex items-center justify-center text-[#F5A623] mb-6 group-hover:scale-110 transition-transform">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="12" cy="12" r="10"/><polygon points="16.24 7.76 14.12 14.12 7.76 16.24 9.88 9.88 16.24 7.76"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-[20px] font-semibold text-[#1A2B3C] mb-3">Planejamento Estratégico</h3>
+                            <p class="text-[#4A5568] leading-relaxed text-[15px]">Definição de metas, OKRs, análise de mercado e construção de um plano de crescimento sustentável.</p>
+                        </div>
                     </div>
-                    <h3 class="text-[20px] font-semibold text-[#1A2B3C] mb-3">Planejamento Estratégico</h3>
-                    <p class="text-[#4A5568] leading-relaxed text-[15px]">Definição de metas, OKRs, análise de mercado e construção de um plano de crescimento sustentável.</p>
-                </div>
-
-                <div class="bg-white border border-[#E2E0D8] rounded-lg p-8 shadow-[0_2px_12px_rgba(26,43,60,0.06)] hover:shadow-[0_8px_32px_rgba(26,43,60,0.12)] hover:border-[#F5A623] transition-all duration-300 group">
-                    <div class="w-[52px] h-[52px] rounded-lg bg-[#F5A623]/10 border border-[#F5A623]/30 flex items-center justify-center text-[#F5A623] mb-6 group-hover:scale-110 transition-transform">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                            <circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/>
-                        </svg>
+                    <div class="swiper-slide">
+                        <div class="bg-white border border-[#E2E0D8] rounded-lg p-8 shadow-[0_2px_12px_rgba(26,43,60,0.06)] hover:shadow-[0_8px_32px_rgba(26,43,60,0.12)] hover:border-[#F5A623] transition-all duration-300 group">
+                            <div class="w-[52px] h-[52px] rounded-lg bg-[#F5A623]/10 border border-[#F5A623]/30 flex items-center justify-center text-[#F5A623] mb-6 group-hover:scale-110 transition-transform">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <circle cx="8" cy="21" r="1"/><circle cx="19" cy="21" r="1"/><path d="M2.05 2.05h2l2.66 12.42a2 2 0 0 0 2 1.58h9.78a2 2 0 0 0 1.95-1.57l1.65-7.43H5.12"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-[20px] font-semibold text-[#1A2B3C] mb-3">Gestão Comercial</h3>
+                            <p class="text-[#4A5568] leading-relaxed text-[15px]">Estruturação do funil de vendas, treinamento de equipe comercial e estratégias para aumento de receita.</p>
+                        </div>
                     </div>
-                    <h3 class="text-[20px] font-semibold text-[#1A2B3C] mb-3">Gestão Comercial</h3>
-                    <p class="text-[#4A5568] leading-relaxed text-[15px]">Estruturação do funil de vendas, treinamento de equipe comercial e estratégias para aumento de receita.</p>
-                </div>
-
-                <div class="bg-white border border-[#E2E0D8] rounded-lg p-8 shadow-[0_2px_12px_rgba(26,43,60,0.06)] hover:shadow-[0_8px_32px_rgba(26,43,60,0.12)] hover:border-[#F5A623] transition-all duration-300 group">
-                    <div class="w-[52px] h-[52px] rounded-lg bg-[#F5A623]/10 border border-[#F5A623]/30 flex items-center justify-center text-[#F5A623] mb-6 group-hover:scale-110 transition-transform">
-                        <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-                            <polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/>
-                        </svg>
+                    <div class="swiper-slide">
+                        <div class="bg-white border border-[#E2E0D8] rounded-lg p-8 shadow-[0_2px_12px_rgba(26,43,60,0.06)] hover:shadow-[0_8px_32px_rgba(26,43,60,0.12)] hover:border-[#F5A623] transition-all duration-300 group">
+                            <div class="w-[52px] h-[52px] rounded-lg bg-[#F5A623]/10 border border-[#F5A623]/30 flex items-center justify-center text-[#F5A623] mb-6 group-hover:scale-110 transition-transform">
+                                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
+                                    <polygon points="12 2 2 7 12 12 22 7 12 2"/><polyline points="2 17 12 22 22 17"/><polyline points="2 12 12 17 22 12"/>
+                                </svg>
+                            </div>
+                            <h3 class="text-[20px] font-semibold text-[#1A2B3C] mb-3">Reestruturação Empresarial</h3>
+                            <p class="text-[#4A5568] leading-relaxed text-[15px]">Para negócios em crise ou momento de transição: diagnóstico completo e plano de reestruturação para retomar o crescimento.</p>
+                        </div>
                     </div>
-                    <h3 class="text-[20px] font-semibold text-[#1A2B3C] mb-3">Reestruturação Empresarial</h3>
-                    <p class="text-[#4A5568] leading-relaxed text-[15px]">Para negócios em crise ou momento de transição: diagnóstico completo e plano de reestruturação para retomar o crescimento.</p>
                 </div>
-
             </div>
+            <div class="swiper-pagination-servicos mt-8 text-center md:hidden"></div>
         </div>
     </section>
 
@@ -296,33 +310,39 @@
 
             <div class="relative">
                 <div class="hidden lg:block absolute top-[28px] left-[28px] right-[28px] h-[2px] bg-[#F5A623]/30 z-0"></div>
-                <div class="grid lg:grid-cols-4 gap-12 lg:gap-6 relative z-10">
-
-                    <div class="relative bg-[#243548] lg:bg-transparent lg:p-0 p-6 rounded-lg border lg:border-none border-[#F5A623]/20">
-                        <div class="w-14 h-14 rounded-full bg-[#F5A623] text-[#1A2B3C] flex items-center justify-center font-bold text-xl mb-6 shadow-[0_0_15px_rgba(245,166,35,0.3)] mx-auto lg:mx-0">01</div>
-                        <h3 class="text-[22px] font-semibold text-white mb-3 text-center lg:text-left">Diagnóstico</h3>
-                        <p class="text-white/70 leading-relaxed text-center lg:text-left">Análise completa do negócio — financeiro, operacional, comercial e de pessoas.</p>
+                <div class="swiper swiper-processo relative z-10">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="relative bg-[#243548] lg:bg-transparent lg:p-0 p-6 rounded-lg border lg:border-none border-[#F5A623]/20">
+                                <div class="w-14 h-14 rounded-full bg-[#F5A623] text-[#1A2B3C] flex items-center justify-center font-bold text-xl mb-6 shadow-[0_0_15px_rgba(245,166,35,0.3)] mx-auto lg:mx-0">01</div>
+                                <h3 class="text-[22px] font-semibold text-white mb-3 text-center lg:text-left">Diagnóstico</h3>
+                                <p class="text-white/70 leading-relaxed text-center lg:text-left">Análise completa do negócio — financeiro, operacional, comercial e de pessoas.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="relative bg-[#243548] lg:bg-transparent lg:p-0 p-6 rounded-lg border lg:border-none border-[#F5A623]/20">
+                                <div class="w-14 h-14 rounded-full bg-[#F5A623] text-[#1A2B3C] flex items-center justify-center font-bold text-xl mb-6 shadow-[0_0_15px_rgba(245,166,35,0.3)] mx-auto lg:mx-0">02</div>
+                                <h3 class="text-[22px] font-semibold text-white mb-3 text-center lg:text-left">Plano de Ação</h3>
+                                <p class="text-white/70 leading-relaxed text-center lg:text-left">Entregamos um plano detalhado com prioridades claras, responsáveis e prazos definidos.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="relative bg-[#243548] lg:bg-transparent lg:p-0 p-6 rounded-lg border lg:border-none border-[#F5A623]/20">
+                                <div class="w-14 h-14 rounded-full bg-[#F5A623] text-[#1A2B3C] flex items-center justify-center font-bold text-xl mb-6 shadow-[0_0_15px_rgba(245,166,35,0.3)] mx-auto lg:mx-0">03</div>
+                                <h3 class="text-[22px] font-semibold text-white mb-3 text-center lg:text-left">Implementação</h3>
+                                <p class="text-white/70 leading-relaxed text-center lg:text-left">Trabalhamos lado a lado com sua equipe para executar as mudanças necessárias.</p>
+                            </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="relative bg-[#243548] lg:bg-transparent lg:p-0 p-6 rounded-lg border lg:border-none border-[#F5A623]/20">
+                                <div class="w-14 h-14 rounded-full bg-[#F5A623] text-[#1A2B3C] flex items-center justify-center font-bold text-xl mb-6 shadow-[0_0_15px_rgba(245,166,35,0.3)] mx-auto lg:mx-0">04</div>
+                                <h3 class="text-[22px] font-semibold text-white mb-3 text-center lg:text-left">Acompanhamento</h3>
+                                <p class="text-white/70 leading-relaxed text-center lg:text-left">Monitoramos os resultados e ajustamos a rota conforme necessário para garantir o impacto.</p>
+                            </div>
+                        </div>
                     </div>
-
-                    <div class="relative bg-[#243548] lg:bg-transparent lg:p-0 p-6 rounded-lg border lg:border-none border-[#F5A623]/20">
-                        <div class="w-14 h-14 rounded-full bg-[#F5A623] text-[#1A2B3C] flex items-center justify-center font-bold text-xl mb-6 shadow-[0_0_15px_rgba(245,166,35,0.3)] mx-auto lg:mx-0">02</div>
-                        <h3 class="text-[22px] font-semibold text-white mb-3 text-center lg:text-left">Plano de Ação</h3>
-                        <p class="text-white/70 leading-relaxed text-center lg:text-left">Entregamos um plano detalhado com prioridades claras, responsáveis e prazos definidos.</p>
-                    </div>
-
-                    <div class="relative bg-[#243548] lg:bg-transparent lg:p-0 p-6 rounded-lg border lg:border-none border-[#F5A623]/20">
-                        <div class="w-14 h-14 rounded-full bg-[#F5A623] text-[#1A2B3C] flex items-center justify-center font-bold text-xl mb-6 shadow-[0_0_15px_rgba(245,166,35,0.3)] mx-auto lg:mx-0">03</div>
-                        <h3 class="text-[22px] font-semibold text-white mb-3 text-center lg:text-left">Implementação</h3>
-                        <p class="text-white/70 leading-relaxed text-center lg:text-left">Trabalhamos lado a lado com sua equipe para executar as mudanças necessárias.</p>
-                    </div>
-
-                    <div class="relative bg-[#243548] lg:bg-transparent lg:p-0 p-6 rounded-lg border lg:border-none border-[#F5A623]/20">
-                        <div class="w-14 h-14 rounded-full bg-[#F5A623] text-[#1A2B3C] flex items-center justify-center font-bold text-xl mb-6 shadow-[0_0_15px_rgba(245,166,35,0.3)] mx-auto lg:mx-0">04</div>
-                        <h3 class="text-[22px] font-semibold text-white mb-3 text-center lg:text-left">Acompanhamento</h3>
-                        <p class="text-white/70 leading-relaxed text-center lg:text-left">Monitoramos os resultados e ajustamos a rota conforme necessário para garantir o impacto.</p>
-                    </div>
-
                 </div>
+                <div class="swiper-pagination-processo mt-8 text-center lg:hidden"></div>
             </div>
         </div>
     </section>
@@ -336,48 +356,53 @@
             </h2>
             <div class="w-12 h-[3px] bg-[#F5A623] mx-auto mb-16"></div>
 
-            <div class="grid md:grid-cols-3 gap-8 text-left">
-
-                <div class="bg-[#243548] border border-[#F5A623]/30 rounded-lg p-8 shadow-lg flex flex-col justify-between">
-                    <div>
-                        <div class="flex text-[#F5A623] mb-6">
-                            <span class="text-xl">★</span><span class="text-xl">★</span><span class="text-xl">★</span><span class="text-xl">★</span><span class="text-xl">★</span>
+            <div class="swiper swiper-depoimentos">
+                <div class="swiper-wrapper text-left">
+                    <div class="swiper-slide">
+                        <div class="bg-[#243548] border border-[#F5A623]/30 rounded-lg p-8 shadow-lg flex flex-col justify-between">
+                            <div>
+                                <div class="flex text-[#F5A623] mb-6">
+                                    <span class="text-xl">★</span><span class="text-xl">★</span><span class="text-xl">★</span><span class="text-xl">★</span><span class="text-xl">★</span>
+                                </div>
+                                <p class="text-white text-lg font-['Plus_Jakarta_Sans'] italic leading-relaxed mb-8">"A Bethel enxergou problemas no nosso fluxo de caixa que a gente nunca teria identificado sozinho. Em 3 meses, nossa margem melhorou 18%."</p>
+                            </div>
+                            <div>
+                                <p class="text-[#F5A623] font-bold">Carlos M.</p>
+                                <p class="text-white/60 text-sm mt-1">Diretor, Empresa de Distribuição · Londrina, PR</p>
+                            </div>
                         </div>
-                        <p class="text-white text-lg font-['Plus_Jakarta_Sans'] italic leading-relaxed mb-8">"A Bethel enxergou problemas no nosso fluxo de caixa que a gente nunca teria identificado sozinho. Em 3 meses, nossa margem melhorou 18%."</p>
                     </div>
-                    <div>
-                        <p class="text-[#F5A623] font-bold">Carlos M.</p>
-                        <p class="text-white/60 text-sm mt-1">Diretor, Empresa de Distribuição · Londrina, PR</p>
+                    <div class="swiper-slide">
+                        <div class="bg-[#243548] border border-[#F5A623]/30 rounded-lg p-8 shadow-lg flex flex-col justify-between">
+                            <div>
+                                <div class="flex text-[#F5A623] mb-6">
+                                    <span class="text-xl">★</span><span class="text-xl">★</span><span class="text-xl">★</span><span class="text-xl">★</span><span class="text-xl">★</span>
+                                </div>
+                                <p class="text-white text-lg font-['Plus_Jakarta_Sans'] italic leading-relaxed mb-8">"O planejamento estratégico que desenvolvemos juntos nos deu clareza para tomar decisões que estávamos evitando há anos."</p>
+                            </div>
+                            <div>
+                                <p class="text-[#F5A623] font-bold">Ana P.</p>
+                                <p class="text-white/60 text-sm mt-1">Sócia-fundadora, Clínica de Saúde · Londrina, PR</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-slide">
+                        <div class="bg-[#243548] border border-[#F5A623]/30 rounded-lg p-8 shadow-lg flex flex-col justify-between">
+                            <div>
+                                <div class="flex text-[#F5A623] mb-6">
+                                    <span class="text-xl">★</span><span class="text-xl">★</span><span class="text-xl">★</span><span class="text-xl">★</span><span class="text-xl">★</span>
+                                </div>
+                                <p class="text-white text-lg font-['Plus_Jakarta_Sans'] italic leading-relaxed mb-8">"Reestruturamos nossa equipe comercial com a Bethel e dobramos o faturamento no semestre seguinte. Investimento que se paga."</p>
+                            </div>
+                            <div>
+                                <p class="text-[#F5A623] font-bold">Roberto L.</p>
+                                <p class="text-white/60 text-sm mt-1">CEO, Indústria de Médio Porte · PR</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
-
-                <div class="bg-[#243548] border border-[#F5A623]/30 rounded-lg p-8 shadow-lg flex flex-col justify-between">
-                    <div>
-                        <div class="flex text-[#F5A623] mb-6">
-                            <span class="text-xl">★</span><span class="text-xl">★</span><span class="text-xl">★</span><span class="text-xl">★</span><span class="text-xl">★</span>
-                        </div>
-                        <p class="text-white text-lg font-['Plus_Jakarta_Sans'] italic leading-relaxed mb-8">"O planejamento estratégico que desenvolvemos juntos nos deu clareza para tomar decisões que estávamos evitando há anos."</p>
-                    </div>
-                    <div>
-                        <p class="text-[#F5A623] font-bold">Ana P.</p>
-                        <p class="text-white/60 text-sm mt-1">Sócia-fundadora, Clínica de Saúde · Londrina, PR</p>
-                    </div>
-                </div>
-
-                <div class="bg-[#243548] border border-[#F5A623]/30 rounded-lg p-8 shadow-lg flex flex-col justify-between">
-                    <div>
-                        <div class="flex text-[#F5A623] mb-6">
-                            <span class="text-xl">★</span><span class="text-xl">★</span><span class="text-xl">★</span><span class="text-xl">★</span><span class="text-xl">★</span>
-                        </div>
-                        <p class="text-white text-lg font-['Plus_Jakarta_Sans'] italic leading-relaxed mb-8">"Reestruturamos nossa equipe comercial com a Bethel e dobramos o faturamento no semestre seguinte. Investimento que se paga."</p>
-                    </div>
-                    <div>
-                        <p class="text-[#F5A623] font-bold">Roberto L.</p>
-                        <p class="text-white/60 text-sm mt-1">CEO, Indústria de Médio Porte · PR</p>
-                    </div>
-                </div>
-
             </div>
+            <div class="swiper-pagination-depoimentos mt-8 text-center md:hidden"></div>
         </div>
     </section>
 
@@ -567,6 +592,42 @@
                 menuIcon.classList.remove('hidden');
                 closeIcon.classList.add('hidden');
             });
+        });
+
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+    <script>
+        // Swiper — mobile carousels
+        new Swiper('.swiper-diferencial', {
+            slidesPerView: 1.15,
+            spaceBetween: 16,
+            grabCursor: true,
+            pagination: { el: '.swiper-pagination-diferencial', clickable: true },
+            breakpoints: { 768: { enabled: false } }
+        });
+
+        new Swiper('.swiper-servicos', {
+            slidesPerView: 1.15,
+            spaceBetween: 16,
+            grabCursor: true,
+            pagination: { el: '.swiper-pagination-servicos', clickable: true },
+            breakpoints: { 768: { enabled: false } }
+        });
+
+        new Swiper('.swiper-processo', {
+            slidesPerView: 1.2,
+            spaceBetween: 16,
+            grabCursor: true,
+            pagination: { el: '.swiper-pagination-processo', clickable: true },
+            breakpoints: { 1024: { enabled: false } }
+        });
+
+        new Swiper('.swiper-depoimentos', {
+            slidesPerView: 1.15,
+            spaceBetween: 16,
+            grabCursor: true,
+            pagination: { el: '.swiper-pagination-depoimentos', clickable: true },
+            breakpoints: { 768: { enabled: false } }
         });
     </script>
 

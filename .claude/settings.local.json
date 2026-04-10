@@ -1,6 +1,12 @@
 {
+  "permissions": {
+    "allow": [
+      "WebFetch(domain:swiperjs.com)",
+      "Bash(npm run:*)"
+    ]
+  },
+  "enableAllProjectMcpServers": true,
   "enabledMcpjsonServers": [
     "laravel-boost"
-  ],
-  "enableAllProjectMcpServers": true
+  ]
 }
